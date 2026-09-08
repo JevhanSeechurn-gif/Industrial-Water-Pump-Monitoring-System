@@ -1,1 +1,1 @@
-# Industrial-Water-Pump-Monitoring-System
+# Industrial Water Pump Monitoring System
