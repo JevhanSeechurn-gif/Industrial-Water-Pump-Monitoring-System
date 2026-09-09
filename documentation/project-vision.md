@@ -1,6 +1,9 @@
 # Project Vision
 
+
+
 ## Industrial Water Pump Monitoring System
+<br>
 
 ### 1. Vision Statement
 
@@ -13,7 +16,7 @@ The system will function via a state-based stochastic simulation and simplified 
 The project will then implement an ETL system that will extract, process and load the data in order to analyse pump performance and potential abnormalities that can be monitored continuously.
 
 
-
+<br>
 
 
 ### 2. Problem Statement
@@ -27,7 +30,7 @@ The **problem** is that industrial pumps can operate continuously for long perio
 If these changes are not found in an earlier stage, faults can start to further progress into a more critical or even potentially catastrophic faliures, which can result in equipment damage, unplanned downtime, increased maintenance requirements or disruption to wider operations.
 
 
-
+<br>
 
 
 ### 3. Project Purpose
@@ -40,7 +43,7 @@ The system will focus on monitoring key operational values such as pressure, flo
 
 The project will also demonstrate how data engineering techniques can be used to process, store and analyse continuous industrial sensor data.
 
-
+<br>
 
 ### 4. Requirements
 
@@ -64,6 +67,8 @@ The project will also demonstrate how data engineering techniques can be used to
 | NFR-03 | The code should be modular and maintainable. | Must |
 | NFR-04 | The monitoring interface should update with low latency. | Should |
 | NFR-05 | The system should be deployable using Docker. | Should |
+
+<br>
 
 ## 5. Target Users
 
@@ -97,26 +102,32 @@ The project will also demonstrate how data engineering techniques can be used to
   - Respond to anomalies and faults.
   - Compare their performance against automated or AI-assisted monitoring.
 
+<br>
+
 ### 6. User Needs
 
-<!-- What would the user need to be able to see, understand, or do? -->
-
-- 
-- 
-- 
-- 
-
 ---
 
-### 7. Core Project Concept
+- View live pump operating conditions in real time.
+- Monitor pressure, flow rate, temperature, vibration, RPM and power consumption.
+- Quickly identify abnormal or unsafe operating conditions.
+- Receive clear warnings when potential faults are detected.
+- View an overall pump health score.
+- Review pump health over different time periods.
+- Analyse historical sensor data and operating trends.
+- Investigate previous anomalies and fault events.
+- Understand which sensor readings contributed to a warning or anomaly.
+- Compare current pump behaviour against normal operating conditions.
+- Access clear and easy-to-understand charts and visual indicators.
+- Monitor the system without needing to manually inspect every individual sensor reading.
+- View the current operating state of the pump, such as normal, warning or critical.
+- Support maintenance decisions using historical and real-time data.
+- If interactive mode is implemented, control selected pump settings and respond to simulated faults.
+- If AI monitoring is implemented, view AI-detected anomalies and understand why they were flagged.
 
-<!-- Briefly describe how the overall system will work. -->
+<br>
 
-
-
----
-
-### 8. High-Level System Flow
+### 7. High-Level System Flow
 
 ```text
 
