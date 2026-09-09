@@ -1,5 +1,5 @@
 # Industrial Water Pump Monitoring System
-<<<<<<< HEAD
+
 
 A real-time data engineering project that simulates an industrial centrifugal water pump, generates realistic time-series sensor data, and processes the data through a monitoring pipeline.
 
